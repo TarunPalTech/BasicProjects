@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Maode To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To-Do List</h1>
+      <div class="input-container">
+        <input
+          type="text"
+          name="task"
+          id="todo-input"
+          placeholder="Add a new task..." />
+        <button id="add-task-btn">Add Task</button>
+      </div>
+      <ul id="todo-list"></ul>
+      <div style="width: 440px;">
+        <marquee behavior="" direction=""
+          ><span class="warning">Important:-</span> When you click on a task, it
+          will be scheduled for deletion after a short delay. If you change your
+          mind, simply click it again before it disappears.</marquee
+        >
+        <marquee behavior="" direction=""
+          ><span class="warning">Important:-</span> However, if you click the
+          delete button, the task will be removed instantly.</marquee
+        >
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
